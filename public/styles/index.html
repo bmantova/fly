@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <title>Fly</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="./styles/main.css">
+
+    <!-- Librairies -->
+    <script type="text/javascript" src="./scripts/lib/three.js"></script>
+    <script type="text/javascript" src="./scripts/lib/TRHEEOBJLoader.js"></script>
+    <script type="text/javascript" src="./scripts/lib/MTLLoader.js"></script>
+    <script type="text/javascript" src="./scripts/lib/THREE.Nodes.js"></script>
+
+    <script src="./scripts/utils.js"></script>
+    <script src="./scripts/class/FlyingObject.js"></script>
+    <script src="./scripts/class/Wingsuit.js"></script>
+    <script src="./scripts/class/Map.js"></script>
+    <script src="./scripts/class/Bullet.js"></script>
+    <script src="./scripts/class/ThreeJsController.js"></script>
+    <script src="./scripts/class/KeyboardController.js"></script>
+    <script src="./scripts/class/RequestController.js"></script>
+    <script src="./scripts/class/Loader.js"></script>
+    <script src="./scripts/class/App.js"></script>
+    <script src="./scripts/class/Plane.js"></script>
+    <script src="./scripts/class/UiController.js"></script>
+  </head>
+  <body>
+    <script src="./scripts/lib/socket.io.js"></script>
+
+        <script type="text/javascript" src="./scripts/main.js"></script>
+	<div id="res"></div>
+    <div id="bottom_right_info">
+        <div>
+            <div id="under_regime">
+                <img src="./assets/icons/danger.png">
+            </div>
+        </div>
+        <div>
+            <span id="main_plane_height">00</span>
+            </span>m</span>
+        </div>
+        <div>
+            <span id="main_plane_speed">00</span>
+            <span>km/h</span>
+        </div>
+    </div>
+
+  </body>
+</html>
